@@ -852,6 +852,7 @@ class PhoneInput extends React.Component {
               type='search'
               placeholder={searchPlaceholder}
               autoFocus={true}
+              autoComplete='new-password'
               value={searchValue}
               onChange={this.handleSearchChange}
             />
